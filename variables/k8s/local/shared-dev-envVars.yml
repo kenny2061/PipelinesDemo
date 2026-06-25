@@ -1,0 +1,9 @@
+#每一筆設定的格式為「Key: Value」，冒號後面有一個空格，為了多個檔案的內容合併，請確認最後一行有空白行
+ELASTIC_APM_STARTUP_HOOKS_LOGGING: 1
+ElasticApm__CentralConfig: true
+# Minimum log level. One of debug, info, warning, or error. The default log level is info.
+ELASTIC_APM_LOG_LEVEL: Info
+# 0:Trace, 1:Debug, 2:Information, 3:Warning, 4:Error, 5:Critical, 6:None
+ENV_ENVIRONMENT: dev
+CURRENT_ENVIRONMENT: dev
+ENVIRONMENT_NAME: development

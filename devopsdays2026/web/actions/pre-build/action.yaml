@@ -1,0 +1,19 @@
+name: Pre Build Action
+
+inputs:
+  args_json:
+    description: "Arguments for action"
+    required: false
+    default: "{}"
+  merged_config_json:
+    description: "Merged configuration JSON from previous steps"
+    required: false
+    default: "{}"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Print go env
+      shell: bash
+      run: |
+        go env

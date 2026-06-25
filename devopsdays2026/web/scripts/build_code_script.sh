@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e          # 遇到任何錯誤立即停止執行
+set -o pipefail # 捕捉 pipeline 中間的錯誤
+
+
+go build -gcflags="all=-N -l" -buildvcs=false -o $OUTPUT_FOLDER/web-app $SOURCE_FOLDER

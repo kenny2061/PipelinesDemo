@@ -1,0 +1,4 @@
+GITHUB_ORG_NAME: 'kenny2061'                       # Required: GitHub 組織名稱
+WORKLOAD_IDENTITY_PROVIDER: 'projects/123531939241/locations/global/workloadIdentityPools/github/providers/github'
+GCP_PROJECT_ID: 'devopsdays2026'  # Required: GCP Project ID
+DOCKER_REGISTRY_URI: 'asia-east1-docker.pkg.dev/devopsdays2026/images'  # 完整映像庫 URI
